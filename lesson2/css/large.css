@@ -1,0 +1,7 @@
+@media only screen and (min-width: 60em) {
+    main section{
+        flex: 1 1 250px; 
+        flex: 0 1 250px; 
+    }
+
+}
