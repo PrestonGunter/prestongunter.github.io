@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
+    margin: 0;
+    padding: 0;
     font-family:'Open Sans', sans-serif;
     background: rgb(255,175,96);
     background: linear-gradient(90deg, rgba(255,175,96,1) 0%, rgba(242,255,58,1) 48%, rgba(251,255,0,1) 100%);
-    
 }
+
+h2{
+    text-align: center;
+}
+
 
 .contentbox{
     display: block;
@@ -24,55 +30,50 @@ header{
     align-items: center;
     justify-content: center;
     background: rgb(255,175,96);
-background: linear-gradient(90deg, rgba(255,175,96,1) 0%, rgba(242,255,58,1) 48%, rgba(251,255,0,1) 100%);
-background: rgb(251,244,63);
 background: radial-gradient(circle, rgba(251,244,63,1) 0%, rgba(252,70,107,1) 100%);
 
 }
 
-h2{
-    text-align: center;
-}
 
-nav ul a{
-   /* background-color: white;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-    width:100%;
+nav{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   padding: 0;
   }
 
-  .dropdown{
-      display:flex;
-      align-items: center;
-      flex-direction: column;
-      padding: 1em;
-      width: 100%;
-  }
+  
 
   .dropbtn {
       display: none;
       width: 100%;
+      background: #ed4a6a;
   }
 
   .dropdown-content {
-      text-align: center;
-      padding: 1em;
-      width: 100%;
+     display: flex;
+     padding: 0;
+    }
+
+    .dropdown-content li{
+        flex-basis: auto;
+        flex-grow: 1;
+        list-style: none;
+        text-align: center;
+        padding: 1em 1.5em;
+        background: #ed4a6a;
     }
 
  .dropdown-content a {
-     padding: 0.3em;
      text-decoration: none;
      color: #ffffff;
      font-weight: 600;
-     background: rgba(252,70,107,1);
-    
     }
 
-    .dropdown a:hover{
+    .dropdown-content li:hover{
         background: #000000;
+        transition: all 0.5s ease;
     }
 
     footer{
@@ -86,9 +87,12 @@ nav ul a{
 
     
 @media only screen and (max-width: 600px) {
+    ul{
+        margin-block-start: 0;
+    }
 
 .dropbtn {
-    background-color: #3498DB;
+    background-color:#ed4a6a;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -99,7 +103,7 @@ nav ul a{
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #ed4a6a;
   }
   
   .dropdown {
@@ -110,8 +114,7 @@ nav ul a{
   
   .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f1f1f1;
+    background-color: #ed4a6a;
     min-width: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -120,7 +123,7 @@ nav ul a{
   }
   
   .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;

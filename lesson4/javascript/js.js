@@ -15,3 +15,8 @@ function myFunction() {
       }
     }
   }
+
+    
+     var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+     var today  = new Date();
+     document.getElementById("fullDate").innerHTML = today.toLocaleDateString("en-US", options);
