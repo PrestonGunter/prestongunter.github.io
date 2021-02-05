@@ -1,0 +1,42 @@
+@media only screen and (min-width: 35rem) {
+    footer{
+        display: block;
+        background-color: rgb(255, 208, 0);
+        padding: 1em;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    section.forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    section.forecast div{
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    section.forecast div h5{
+        background:  rgba(252,70,107,1);
+        color: black;
+        margin: 0;
+        padding: 1 rem 0;
+    }
+
+    .article_div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article_div img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .contentbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    } 
+}

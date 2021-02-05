@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="WDD 230 Index Page">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Preston Gunter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <title>Preston Idaho Weather Site</title>
+    </head>
+
+    <body cz-shorcut-listen="true">
+
+        <div id="message">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+        
+        <header>
+            <picture>
+                <img src="images/sunlogo.png" alt="Logo">               
+            </picture>
+
+            <section>
+                <h1>Preston Idaho Weather Site</h1>
+                <div>Best Place for all things Preston Idaho</div>
+            </section>
+        </header>
+
+        <nav>
+               <button onclick="myFunction()" class="dropbtn">☰ Menu</button>
+                <ul id="myDropdown" class="dropdown-content">
+                   <li>  <a href="preston.html">Home</a></li>
+                   <li>  <a href="#">Preston</a></li>
+                   <li>  <a href="#">Soda Springs</a></li>
+                   <li>  <a href="#">Fish Haven</a></li>
+                   <li>  <a href="#">Storm Center</a></li>
+                   <li>  <a href="#">Gallery</a></li>
+                </ul>
+                             
+        </nav>
+
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="banner">
+                <div class="weather">
+                  
+                    <ul>
+                        <li><h3>Weather Summary</h3></li>
+                        <li>Currently: Snowing</li>
+                        <li>High: 40&deg;F</li>
+                        <li>Wind Chill: 30&deg;F </li>
+                        <li>Humidity: 50%</li>
+                        <li>Wind Speed: 4mph</li>
+                    </ul>                      
+                </div>
+                <img src="images/preston_idaho_banner.png" alt = "banner photo">
+            </div>
+
+            <h3 class="h3forcast">5 Day Forecast</h3>
+
+            <section class="forecast"> 
+                <div>
+                    <h5>Monday</h5>
+                    <img src="images/rain.png" alt="rainny day">
+                    <p>40&deg;</p>
+                </div> 
+                <div>
+                    <h5>Tuesday</h5>
+                    <img src="images/snow.png" alt="snow day">
+                    <p>30&deg;</p>
+                </div> 
+                <div>
+                    <h5>Wednesday</h5>
+                    <img src="images/sunny.png" alt="sunny day">
+                    <p>50&deg;</p>
+                </div> 
+                <div>
+                    <h5>Thursday</h5>
+                    <img src="images/sunny.png" alt="sunny day">
+                    <p>55&deg;</p>
+                </div> 
+                <div>
+                    <h5>Friday </h5>
+                    <img src="images/snow.png" alt="snow day">
+                    <p>30&deg;</p>
+                </div> 
+
+            </section>
+            
+            <section class="article">
+            <div class="article_div">
+                
+            <div>
+                <h3>Articles</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Aliquam sem et tortor consequat. Phasellus egestas tellus rutrum tellus pellentesque eu.<br>
+                    Nunc vel risus commodo viverra. Lorem ipsum dolor sit amet consectetur adipiscing elit. Netus et malesuada fames ac turpis.<br>
+                    Aliquam malesuada bibendum arcu vitae elementum curabitur. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar.<br>
+                    Convallis posuere morbi leo urna molestie at. Faucibus purus in massa tempor nec feugiat nisl pretium fusce.<br>
+                </p>
+            </div>
+
+                <div>
+                <img src="images/article_img.png" alt="squirrel in snow">
+                </div>
+
+            </div>
+            </section>
+            
+            <section class="contact">
+                <div><h3>Contact Information</h3></div>
+                <div class="contentbox">
+            <div> 
+                <h3>Address:</h3>
+                <p>
+                    123 Preston dr<br>
+                    Preston, ID 83263
+                </p>
+            </div>
+
+            <div>
+                <h3>Phone:</h3>
+                <p>123-456-7890</p>
+
+                <h3>Email:</h3>
+                <p>emailinfo@info.com</p>
+            </div>
+
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=preston,%20id&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <style>.mapouter{position:relative;text-align:right;}</style>
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;}</style>
+                </div>
+            </div>
+
+
+            </section>
+
+            
+
+        </main>
+        <footer>
+            <p>©2021|Preston Gunter|Idaho|<a href="https://byui.edu/online">BYUI Online Learning</a></p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <script src="/lesson5/javascript/js.js"></script>
+        
+    </body>
+</html>
