@@ -1,0 +1,29 @@
+body{
+   background-color: blanchedalmond
+}
+
+header{
+    display: block;
+    background-color: orange;
+    padding: 1em;
+    border-radius: 12px;
+    text-align: center;
+    color:black;
+}
+
+
+img{
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img[data-src] {
+    filter: blur(.4em);
+  }
+
+
+
+  
