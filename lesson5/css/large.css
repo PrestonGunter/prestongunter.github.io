@@ -8,4 +8,26 @@
         width: 80%;
         margin: auto;
     }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-top: 50px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    figcaption{
+        padding: 1em;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .gallery figure img:hover{
+        box-shadow: 5px 10px 8px black;
+    } 
+    
+
 }
