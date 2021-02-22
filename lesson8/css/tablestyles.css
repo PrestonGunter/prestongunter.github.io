@@ -1,0 +1,54 @@
+caption{
+    background: #7fb9c2;
+    border: .5px solid gray;
+    font-weight: bold;
+    padding: 5px;
+}
+
+thead th{
+   padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 3px;
+  }
+
+
+table{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    margin: auto;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    box-shadow: 8px 8px 12px #5e9097 ;
+}
+
+.acmetable thead{
+    background:#628CA6 ;
+    color: white;
+}
+
+ tbody{
+    background:#e7f0ed;
+    
+}
+
+tfoot tr td {
+    background: #7fb9c2;
+    font-size: 0.5rem;
+    padding: .3rem;
+}
+
+tr:nth-child(2n){
+    background:#e7ffed; 
+}
+
+tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
+  }
+
+  tr:nth-child(4) td:nth-child(3) {
+    background-color: #628CA6;
+    color: white;
+  }
