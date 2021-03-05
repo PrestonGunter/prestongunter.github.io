@@ -206,6 +206,34 @@ figure img{
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  /*INDEX PAGE*/
+  .card {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  
+  .card section {
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(251,244,63,1) 0%, rgba(252,70,107,1) 100%);
+  }
+  
+  .card section img {
+    border-radius: 8px;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+
+
+
+  
 /*******************************/
 
 @media only screen and (max-width: 600px) {
