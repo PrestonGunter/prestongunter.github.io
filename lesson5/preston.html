@@ -47,48 +47,57 @@
             <div class="banner">
                 <div class="weather">
                   
-                    <ul>
-                        <li><h3>Weather Summary</h3></li>
-                        <li>Currently: Snowing</li>
-                        <li>High: 40&deg;F</li>
-                        <li>Wind Chill: 30&deg;F </li>
-                        <li>Humidity: 50%</li>
-                        <li>Wind Speed: 4mph</li>
-                    </ul>                      
+                    <p>Currently: 
+                        <span id="currently"></span>
+                      </p>
+                      <p>Temp: 
+                        <span id="temp"></span>
+                      &#176;F</p>
+                      <p>Wind Chill: 
+                        <span id="windchill"></span>
+                        &#176;F
+                      </p>
+                      <p>Humidity: 
+                        <span id="humidity"></span>
+                      %</p>
+                      <p>Wind Speed: 
+                        <span id="windspeed"></span>
+                      mph</p>
+                        </section>
                 </div>
                 <img src="images/preston_idaho_banner.png" alt = "banner photo">
             </div>
 
-            <h3 class="h3forcast">5 Day Forecast</h3>
+            <h4 class="h3forcast">5 Day Forecast</h4>
 
-            <section class="forecast"> 
-                <div>
-                    <h5>Monday</h5>
-                    <img src="images/rain.png" alt="rainny day">
-                    <p>40&deg;</p>
-                </div> 
-                <div>
-                    <h5>Tuesday</h5>
-                    <img src="images/snow.png" alt="snow day">
-                    <p>30&deg;</p>
-                </div> 
-                <div>
-                    <h5>Wednesday</h5>
-                    <img src="images/sunny.png" alt="sunny day">
-                    <p>50&deg;</p>
-                </div> 
-                <div>
-                    <h5>Thursday</h5>
-                    <img src="images/sunny.png" alt="sunny day">
-                    <p>55&deg;</p>
-                </div> 
-                <div>
-                    <h5>Friday </h5>
-                    <img src="images/snow.png" alt="snow day">
-                    <p>30&deg;</p>
-                </div> 
+            <div class="forecastdiv">
+                <div class="forecasts">
+                    <div id="day1"></div>
+                        <img src="#" alt="" id="img1">
+                        <div id="temp1"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day2"></div>
+                        <img src="#" alt="" id="img2">
+                        <div id="temp2"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day3"></div>
+                        <img src="#" alt="" id="img3">
+                        <div id="temp3"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day4"></div>
+                        <img src="#" alt="" id="img4">
+                        <div id="temp4"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day5"></div>
+                        <img src="#" alt="" id="img5">
+                        <div id="temp5"></div>
+                    </div>
+             </div>
 
-            </section>
             
             <section class="article">
             <div class="article_div">
@@ -149,6 +158,7 @@
         </footer>
 
         <script src="/lesson5/javascript/js.js"></script>
+        <script src="/lesson5/javascript/weather.js"></script>
         
     </body>
 </html>

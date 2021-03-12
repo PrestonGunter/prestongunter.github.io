@@ -231,6 +231,9 @@ figure img{
     transition: filter 1s;
   }
 
+  main h4{
+    text-align: center;
+  }
 
 
   

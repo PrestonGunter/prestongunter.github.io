@@ -7,22 +7,44 @@
         text-align: center;
     }
 
-    section.forecast{
+    .forecasts {
+        padding: 3px;
+        margin: 2px;
+        border: 3px solid;
+      }
+
+      .forecastdiv {
         display: grid;
+        gap: 5px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-
-    section.forecast div{
         text-align: center;
-        border: 1px solid black;
+      }
+
+    #day1 {
+        background-color: black;
+        color: white;
     }
 
-    section.forecast div h5{
-        background:  rgba(252,70,107,1);
-        color: black;
-        margin: 0;
-        padding: 1 rem 0;
+    #day2 {
+        background-color: black;
+        color: white;
     }
+
+    #day3 {
+        background-color: black;
+        color: white;;
+    }
+
+    #day4 {
+        background-color: black;
+        color: white;
+    }
+
+    #day5 {
+        background-color: black;
+        color: white;
+    }
+
 
     .article_div{
         display: grid;
