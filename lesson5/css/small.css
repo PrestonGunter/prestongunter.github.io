@@ -14,7 +14,6 @@ div.hideme{
 
 body{
     margin: auto;
-    padding: auto;
     font-family:'Open Sans', sans-serif;
     background: rgb(255,175,96);
     background: linear-gradient(90deg, rgba(255,175,96,1) 0%, rgba(242,255,58,1) 48%, rgba(251,255,0,1) 100%);
@@ -68,7 +67,6 @@ h2{
     margin: 10px auto;
     padding: 15px;
     color: black;
-    font-style: bold;
 }
 
 .contact{
@@ -240,10 +238,7 @@ figure img{
 /*******************************/
 
 @media only screen and (max-width: 600px) {
-    ul{
-        margin-block-start: 0;
-    }
-
+   
 .dropbtn {
     background-color:#ed4a6a;
     color: white;
