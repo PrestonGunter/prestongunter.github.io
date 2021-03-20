@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Preston Idaho Weather Site">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Preston Gunter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>Preston Idaho Weather Site</title>
+    </head>
+
+    <body cz-shorcut-listen="true">
+
+        
+        <header>
+            <picture>
+                <img src="images/sunlogo.png" alt="Logo">               
+            </picture>
+
+            <section>
+                <h1>Preston Idaho Weather Site</h1>
+                <div>Best Place for all things Preston Idaho</div>
+            </section>
+        </header>
+
+        <nav>
+               <button onclick="myFunction()" class="dropbtn">☰ Menu</button>
+                <ul id="myDropdown" class="dropdown-content">
+                   <li>  <a href="index.html">Home</a></li>
+                   <li>  <a href="preston.html">Preston</a></li>
+                   <li>  <a href="sodasprings.html">Soda Springs</a></li>
+                   <li class="active">  <a href="fishhaven.html">Fish Haven</a></li>
+                   <li>  <a href="stormcenter.html">Storm Center</a></li>
+                   <li>  <a href="gallery-7.html">Gallery</a></li>
+                </ul>
+                             
+        </nav>
+
+        <main>
+            <h2 id ="town_name">Fish Haven</h2>
+            <div class="banner">
+                <div class="weather">
+                  
+                    <p>Currently: 
+                        <span id="currently"></span>
+                      </p>
+                      <p>Temp: 
+                        <span id="temp"></span>
+                      &#176;F</p>
+                      <p>Wind Chill: 
+                        <span id="windchill"></span>
+                        &#176;F
+                      </p>
+                      <p>Humidity: 
+                        <span id="humidity"></span>
+                      %</p>
+                      <p>Wind Speed: 
+                        <span id="windspeed"></span>
+                      mph</p>
+                        </section>
+                </div>
+                <img src="images/fishbanner.jpg" alt = "banner photo">
+            </div>
+
+            <h4 class="h3forcast">5 Day Forecast</h4>
+
+            <div class="forecastdiv">
+                <div class="forecasts">
+                    <div id="day1"></div>
+                        <img src="#" alt="" id="img1">
+                        <div id="temp1"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day2"></div>
+                        <img src="#" alt="" id="img2">
+                        <div id="temp2"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day3"></div>
+                        <img src="#" alt="" id="img3">
+                        <div id="temp3"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day4"></div>
+                        <img src="#" alt="" id="img4">
+                        <div id="temp4"></div>
+                    </div>
+                    <div class="forecasts">
+                        <div id="day5"></div>
+                        <img src="#" alt="" id="img5">
+                        <div id="temp5"></div>
+                    </div>
+             </div>
+
+             <section class="events">
+                <h3>Town Events</h3>
+
+             </section>
+
+            
+            <section class="article">
+            <div class="article_div">
+                
+            <div>
+                <h3>Articles</h3>
+                <p>German police say they have solved a nine-year-old burglary after DNA found on a half-eaten piece of sausage matched that of a man detained in France over an unrelated crime.
+                    Police in the western town of Schwelm said Thursday that the sausage belonged to the victim, and the suspect — a 30-year-old Albanian citizen — appeared to have helped himself to a bite during the March 2012 break-in.
+                    It wasn’t clear what type of sausage — known in Germany as wurst — the burglar had nibbled, though police said it was a hard variety.
+                    Investigators were recently alerted that French police had taken a matching DNA sample from a man involved in a violent crime.
+                    But Schwelm police said the suspect remains free and, in the wurst case, he may escape punishment. The statute of limitations on the burglary has expired, meaning he will likely not be extradited to Germany.
+                </p>
+            </div>
+
+                <div>
+                <img src="images/hotdog_article.jpg" alt="squirrel in snow">
+                </div>
+
+            </div>
+            </section>
+            
+            <section class="contact">
+                <div><h3>Contact Information</h3></div>
+                <div class="contentbox">
+            <div> 
+                <h3>Address:</h3>
+                <p>
+                    123 Preston dr<br>
+                    Preston, ID 83263
+                </p>
+            </div>
+
+            <div>
+                <h3>Phone:</h3>
+                <p>123-456-7890</p>
+
+                <h3>Email:</h3>
+                <p>emailinfo@info.com</p>
+            </div>
+
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=preston,%20id&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <style>.mapouter{position:relative;text-align:right;}</style>
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;}</style>
+                </div>
+            </div>
+
+
+            </section>
+
+            
+
+        </main>
+        <footer>
+            <p>©2021|Preston Gunter|Idaho|<a href="https://byui.edu/online">BYUI Online Learning</a></p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <script src="/lesson5/javascript/js.js"></script>
+        <script src="/lesson11/javascript/fishhavenweather.js"></script>
+        <script src="/lesson11/javascript/events.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Border images">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Preston Gunter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="border.css" rel="stylesheet">
+      
+    </head>
+
+    <style>
+        .container{
+    border: 50px solid black;
+    width: 70%;
+    padding: 15px;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-image: url("stars.jpg");
+    border-image-slice: 33%;
+    border-image-repeat: round;
+
+    }
+    </style>
+
+   
+    <body>
+
+        <div class="container">
+            This is a border img
+        </div>
+       
+        </div>
+    </body>
+</html>
