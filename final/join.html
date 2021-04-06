@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Preston Idaho Weather Site">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Preston Gunter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>Dallas Texas Information Site</title>
+    </head>
+
+    <body>
+
+        
+        
+        <header>
+            <picture>
+                <img src="images/dallas_logo.png" alt="Dallas Logo">               
+            </picture>
+
+            <nav>
+                <button onclick="myFunction()" class="dropbtn">☰ Menu</button>
+                 <ul id="myDropdown" class="dropdown-content">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li>  <a href="city.html">All About Dallas</a></li>
+                    <li class="active"> <a href="join.html">Become a Member</a></li>
+                    <li>  <a href="directory.html">Local Businesses</a></li>
+                    <li>  <a href="contact.html">Contact us</a></li>
+                 </ul>
+                              
+         </nav>
+
+        </header>
+
+   
+
+        <main>
+
+            <h2>Become a Member</h2>
+            <form method="GET" action="submit.html">
+
+                <fieldset>
+                    <legend>Your Information</legend>
+                        <label class="info">
+                        *First Name: <input type="text" name="firstname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                        </label>
+                        <label class="info">
+                        *Last Name: <input type="text" name="lastname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                        </label>
+                        <label class="info">
+                        Title: <input type="text" name="title" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                        </label>
+                        <label class="info">
+                        *Email: <input type="email" name="email" placeholder="your_email@email.com" required>
+                        </label>  
+                        <label class="info">
+                        *Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+                         </label>
+                         <label class="info">
+                        <label class="info">
+                        *Zip Code: <input type="number" name="zipcode" required>
+                        </label>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Business Information</legend>
+                        <label class="businessinfo">
+                        *Business Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                        </label>
+                        <label class="businessinfo">
+                        Business Adress: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                        </label>
+                        <label class="businessinfo">
+                        Business Website: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                        </label>
+                        <label class="businessinfo">
+                        Business Description: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                        </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership</legend>
+                    <label class="membership">
+                        Membership options: <select name="chamber_membership" id="chamber_membership">
+                            <option selected disabled>Select Membership...</option>
+                            <option value="Non-Profit">Non-Profit - $100</option>
+                            <option value="Bronze">Bronze - $200</option>
+                            <option value="Silver">Silver - $400</option>
+                            <option value="Gold">Gold - $1000</option>
+                        </select>
+                    </label>
+                    <input class="submit_button" type="submit" value="Submit Membership Form">
+                </fieldset>
+                
+            
+                </form>
+        </main>
+
+            
+
+        
+        <footer>
+            <p>©2021|Preston Gunter|Idaho|<a href="https://byui.edu/online">BYUI Online Learning</a></p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <script src="/lesson5/javascript/js.js"></script>
+        <script src="/lesson5/javascript/town.js"></script>
+        
+    </body>
+</html>

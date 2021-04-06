@@ -1,0 +1,114 @@
+@media only screen and (min-width: 640px) {
+
+/* NAVIGATION */
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-align: center;
+}
+
+  nav ul li.active a{
+    color: #1eaeff;
+    border-bottom: 5px solid #1eaeff;
+  }
+  
+
+    .dropbtn {
+      display: none;
+      width: 100%;
+   }
+
+    .dropdown-content {
+     display: flex;
+     padding: 0;
+    }
+
+    .dropdown-content li{
+        flex-basis: auto;
+        flex-grow: 1;
+        list-style: none;
+        text-align: center;
+    }
+
+    .dropdown-content a {
+     text-decoration: none;
+     color: white;
+     font-weight: 600;
+    }
+
+    .dropdown-content li a:hover{
+        color: #1eaeff;
+        transition: all 0.5s ease;
+    }
+
+    /* 5 DAY FORECAST */
+    .forecasts {
+        padding: 3px;
+        margin: 2px;
+        border: 3px solid;
+      }
+
+      .forecastdiv {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+      }
+
+    #day1 {
+        background-color: black;
+        color: white;
+    }
+
+    #day2 {
+        background-color: black;
+        color: white;
+    }
+
+    #day3 {
+        background-color: black;
+        color: white;;
+    }
+
+    #day4 {
+        background-color: black;
+        color: white;
+    }
+
+    #day5 {
+        background-color: black;
+        color: white;
+    }
+
+    /* COMPANY & EVENTS */
+    .company_div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* ARTICLES */
+    .article_div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        line-height: 3em;
+    }
+
+    .article_div img{
+        object-fit: cover;
+    }
+
+   
+
+    /* FOOTER */
+    .contentbox{
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+
+
+}

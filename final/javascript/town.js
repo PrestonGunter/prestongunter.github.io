@@ -11,7 +11,7 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++) {
        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
                 // Create Elements
-               let card = document.createElement('section');
+                let card = document.createElement('section');
                let name = document.createElement('h2');
                let motto = document.createElement('h4');
                let image = document.createElement('img');
