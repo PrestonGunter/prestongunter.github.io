@@ -1,0 +1,59 @@
+{
+  "business": [
+    {
+      "name": "Austin Industries",
+      "photo": "austin_industries_photo.jpg",
+      "motto": "100% Employee-Owned",
+      "logo": "austinindustries.jpg",
+      "contactinformation": "(214) 443-5500",
+      "weblink": "http://www.austin-ind.com/"
+    },
+    {
+      "name": "American Heart Association",
+      "photo": "american_heart_association_hq.jpg",
+      "motto": "Striving to save and improve lives.",
+      "logo": "AHA_icon.svg",
+      "contactinformation": "(800) 242-8721",
+      "weblink": "https://www.heart.org/"
+    },
+    {
+      "name": "Greenville Avenue Pizza Company",
+      "photo": "gapc_company.jpg",
+      "motto": "Thin crust pizzas, salads & subs",
+      "logo": "gapc.png",
+      "contactinformation": "(214) 826-5404",
+      "weblink": "https://www.gapc.co/"
+    },
+    {
+      "name": "Jakes Burgers",
+      "photo": "jakes_buliding.jpg",
+      "motto": "fresh-made burgers, patio seating & a full bar with happy-hour deals.",
+      "logo": "jakes-burgers-logo.png",
+      "contactinformation": "(214) 349-1422",
+      "weblink": "https://jakesburgersandbeer.com/"
+    },
+    {
+      "name": "Zoo Music",
+      "photo": "zoo_music_buliding.jpg",
+      "motto": "Music shop offering new/used guitars, drums & accessories as well as instruction & repairs.",
+      "logo": "zoo_music_logo.jpg",
+      "contactinformation": "(214) 324-3955",
+      "weblink": "http://zoomusictx.com/"
+    },
+    {
+      "name": "Six Flags Over Texas",
+      "photo": "six_flags_building.jpg",
+      "motto": "Theme park located in Arlington, Texas, east of Fort Worth and west of Dallas. It is the first amusement park in the Six Flags chain.",
+      "logo": "Six_Flags_Over_Texas_logo.png",
+      "contactinformation": "(817) 640-8900",
+      "weblink": "https://www.sixflags.com/overtexas"
+    },
+    {
+      "name": "Blue Bell Creameries",
+      "motto": "Blue Bell is dessert with new neighbors... soon-to-be old friends ",
+      "logo": "blue_bell_logo.jpg",
+      "contactinformation": "(800) 327-8135",
+      "weblink": "https://www.bluebell.com/"
+    }
+  ]
+}
