@@ -16,7 +16,7 @@ fetch(requestURL)
 
       h2.textContent = business[i].name;
 
-      image.setAttribute('src', business[i].logo);
+      image.setAttribute('src', 'images/'+ business[i].logo);
 
       image.setAttribute('alt', business[i].name);
 

@@ -194,3 +194,29 @@ body{
     background: #125688;
     color: white;
   }
+
+  /*  BUSINESSES JSON */
+
+  .card {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+
+  .card section {
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #d4dec9;
+  }
+
+  .card section img {
+    border-radius: 8px;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+
