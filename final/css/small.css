@@ -63,7 +63,15 @@ body{
     text-decoration: none;
     text-align: center;
 } */
-  
+   a:hover{
+    color:#0689ce;
+  }
+
+  a{
+    text-decoration: none;
+    color: #424f6e;
+  }
+
   .dropbtn {
     color: white;
     padding: 16px;
@@ -72,12 +80,15 @@ body{
     cursor: pointer;
     width: 100%;
     display: block;
+    background: transparent;
   }
   
   .dropbtn:hover, .dropbtn:focus {
-
+    outline: none;
   }
   
+  .dropdown-content a:hover{color:#0689ce;}
+
   .dropdown {
     position: relative;
     display: inline-block;
@@ -86,10 +97,10 @@ body{
   
   .dropdown-content {
     display: none;
-    min-width: 100%;
+    width: auto;
     overflow: auto;
     z-index: 1;
-    text-align: center;
+    text-align: left;
   }
   
   .dropdown-content a{
@@ -111,7 +122,13 @@ body{
   
   .dropdown a:hover {background-color: #ddd;}
   
-  .show {display: block;}
+  .show {
+        display: block;
+        position: absolute;
+        background: #56627f;
+        padding: 1em 1.5em 1em 0;
+        list-style: none;
+      }
 
  
   /* ARTICLE */
@@ -126,6 +143,13 @@ body{
 
 .article h3{
     text-align: center;
+}
+
+.article div img{
+  width:100%;
+  height:auto;
+  object-fit:cover;
+
 }
 
  /* CONTENTBOX */
@@ -219,4 +243,50 @@ body{
     filter: blur(0em);
     transition: filter 1s;
   }
+
+  /* EVENTS IN DALLAS */
+  .events {
+    border: 2px solid #000;
+    box-shadow: 5px 5px #05386b;
+    margin: 15px auto;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.events li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.events ul{
+  padding: 0;
+}
+
+/* CITY PAGE FOR SMALL VIEW */
+.small_city{
+  display: block;
+  text-align: center;
+}
+
+.food{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.small_dallasinfo{
+  display: block;
+  text-align: center;
+}
+
+.right_zig{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+
 

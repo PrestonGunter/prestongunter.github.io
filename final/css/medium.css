@@ -23,6 +23,8 @@ nav ul li a {
     .dropdown-content {
      display: flex;
      padding: 0;
+     background: transparent;
+     top: .5em;
     }
 
     .dropdown-content li{
@@ -100,8 +102,6 @@ nav ul li a {
         object-fit: cover;
     }
 
-   
-
     /* FOOTER */
     .contentbox{
         margin: 0;
@@ -109,6 +109,53 @@ nav ul li a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     } 
+
+    /* CITY PAGE */
+    .small_city{
+        display: block;
+        text-align: center;
+      }
+      
+      .food{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .left_zig{
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 0 2em;
+          /* flex-wrap: wrap; */
+      }
+
+      .left_zig .info_zig p{
+          text-align: left;
+      }
+
+      .right_zig{
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding: 0 2em;
+      }
+
+      .right_zig .info_zig p{
+          text-align: right;
+      }
+     
+      
+      .info_zig{ 
+            padding: 0 2em;
+      }
+
+      .info_zig ul li{
+          list-style: none;
+          line-height: 3em;
+          text-align: right;
+      }
 
 
 }
