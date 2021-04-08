@@ -11,6 +11,7 @@ fetch(requestURL)
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
+        let motto = document.createElement('p'); 
         let  contact_info = document.createElement('div');
         let  link = document.createElement('a');
 
@@ -20,12 +21,15 @@ fetch(requestURL)
 
       image.setAttribute('alt', business[i].name);
 
+      motto.textContent = business[i].motto;
+
       contact_info.textContent = business[i].contactinformation;
 
       link.textContent = business[i].weblink; 
 
       card.appendChild(h2);
       card.appendChild(image);
+      card.appendChild(motto);
       card.appendChild(contact_info);
       card.appendChild(link);
       

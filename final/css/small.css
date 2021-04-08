@@ -42,15 +42,43 @@
      object-fit:cover;
  }
 
+ /* WEATHER */
 
+ .weather{
+  position: absolute;
+  margin-top: 20em;
+  margin-left: 3em;
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 1em 3em 1em 1em;
+  text-align: left;
+}
+
+.weather ul{
+  list-style: none;
+  list-style-position: outside;
+}
+
+.h3forcast{
+  text-align: center;
+}
+
+.forecastdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.forecasts {
+  padding: 3px;
+  margin: 2px;
+  border: 3px solid;
+}
 
 /* BODY */
 body{
     margin: auto;
     font-family:'Open Sans', sans-serif;
-    background: #abbaab; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #abbaab, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #abbaab, #ffffff); 
+    background: #F0F8FE;
 }
  
   
@@ -130,6 +158,45 @@ body{
         list-style: none;
       }
 
+  /* EVENTS/LOCAL COMPANYS */
+  .event{
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 15px;
+  }
+
+  .event h3{
+    text-align: center;
+  }
+
+  .event img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .local{
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 15px;
+  }
+
+  .local h3{
+    text-align: center;
+  }
+
+  .local_logos{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .local_logos img{
+    margin: 1em;
+    align-items: flex-start;
+  }
+
  
   /* ARTICLE */
 
@@ -146,7 +213,7 @@ body{
 }
 
 .article div img{
-  width:100%;
+  width: 100%;
   height:auto;
   object-fit:cover;
 
@@ -190,6 +257,14 @@ body{
     clear: both;
 }
 
+.footer_color a{
+  color: white;
+}
+
+.footer_color a:hover{
+  color: #0689ce;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -221,27 +296,17 @@ body{
 
   /*  BUSINESSES JSON */
 
-  .card {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 5px;
-  }
-
   .card section {
     margin: auto;
     border: 2px solid #000;
     border-radius: 8px;
     background-color: #d4dec9;
+    text-align: center;
   }
 
   .card section img {
     border-radius: 8px;
-    width: 80%;
-    height: auto;
     padding: 5px;
-    filter: blur(0em);
-    transition: filter 1s;
   }
 
   /* EVENTS IN DALLAS */
@@ -275,17 +340,26 @@ body{
   grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 .small_dallasinfo{
   display: block;
   text-align: center;
+  
 }
 
-.right_zig{
-  display: flex;
-  flex-direction: column-reverse;
-}
+/* CONTACT PAGE */
+  .contact_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .google_map{
+    margin-top: 1em;
+  }
+
 
 
 
